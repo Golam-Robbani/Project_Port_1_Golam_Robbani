@@ -46,7 +46,6 @@ h1, h2 {
 .menu a {
     text-decoration: none;
     color: inherit;
-    transition: .5s;
 }
  .menu a:hover {
     /* text-decoration: underline red; */
@@ -56,7 +55,26 @@ h1, h2 {
     border-bottom: 1px solid #a51a1a;
  }
 
- #hero-image {
-    height: 600px;
+ #hero-outer {
+    height: 800vh;
     width: 100%;
+    overflow: hidden;
+       
+ }
+
+ #hero-image {
+    height: 50px;
+    width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+ }
+ 
+ @keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.1);
+    }
  }
