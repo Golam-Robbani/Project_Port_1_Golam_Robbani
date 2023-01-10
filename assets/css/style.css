@@ -63,7 +63,7 @@ h1, h2 {
  }
 
  #hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -81,18 +81,24 @@ h1, h2 {
  }
  .cover-text{
     font-family: Roboto, sans-serif;
-    font-size: 130%;
+    font-size: 120%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    height: 160px;
+    height: 100px;
     width: 1000px;
     padding-top: 250px;
     padding-left: 300px;
-    background-color:rgba(169, 189, 169,.8);
-    bottom: 380px;
+    /* background-color:rgba(244, 247, 244, 0.5); */
+    bottom: 320px;
     right: 50px;
     position: absolute;
     z-index: 2;
     text-align: center;
 
+ }
+ #main-message {
+    color: rgb(255, 0, 72);
+ }
+ #sub-headline {
+    color: rgb(19, 6, 57);
  }
