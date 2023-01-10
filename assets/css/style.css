@@ -56,18 +56,19 @@ h1, h2 {
  }
 
  #hero-outer {
-    height: 800vh;
+    height: 600px;
     width: 100%;
     overflow: hidden;
        
  }
 
  #hero-image {
-    height: 50px;
+    height: 600px;
     width: 100%;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+   
  }
  
  @keyframes hero-zoom {
@@ -77,4 +78,21 @@ h1, h2 {
     to {
         transform: scale(1.1);
     }
+ }
+ .cover-text{
+    font-family: Roboto, sans-serif;
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    height: 160px;
+    width: 1000px;
+    padding-top: 250px;
+    padding-left: 300px;
+    background-color:rgba(169, 189, 169,.8);
+    bottom: 380px;
+    right: 50px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+
  }
