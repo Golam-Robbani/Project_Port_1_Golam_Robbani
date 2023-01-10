@@ -55,3 +55,8 @@ h1, h2 {
  .active {
     border-bottom: 1px solid #a51a1a;
  }
+
+ #hero-image {
+    height: 600px;
+    width: 100%;
+ }
