@@ -9,7 +9,7 @@
 body{
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a
+    color: #242222
 
 }
 
@@ -18,7 +18,7 @@ h1, h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #4d4a4a;
     
 }
 #logo {
@@ -38,9 +38,12 @@ h1, h2 {
 .menu {
     font-size: 110%;
     letter-spacing: 4px;
+    color:blue;
+    font-weight: bold;
+    padding-right: 60px;
 }
 .menu, #logo {
-    line-height: 10px;
+    line-height: 30px;
 }
 .menu li {
     float: right;
@@ -56,17 +59,24 @@ h1, h2 {
 }
 #header-ribbon{
     background-color: lightblue;
+    
   }
 .menu a {
     text-decoration: none;
     color: inherit;
+    transition: 1s;
+    
 }
  .menu a:hover {
     /* text-decoration: underline red; */
-    border-bottom: 1px solid rgb(40, 8, 99);
+    border: 2px solid rgb(194, 15, 57);
+    border-radius: 4px;
+    
+
+
  }
  .active {
-    border-bottom: 1px solid #a51a1a;
+    /* border-bottom: 1px solid #a51a1a; */
  }
 
  #hero-outer {
@@ -98,17 +108,22 @@ h1, h2 {
     font-size: 150%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    height: 100px;
-    width: 1000px;
+    /* height: 100px; */
+    /* width: 1000px; */
     padding-top: 250px;
     padding-left: 300px;
     /* background-color:rgba(244, 247, 244, 0.5); */
     bottom: 300px;
     right: 50px;
     position: absolute;
-    z-index: 2;
+    /* z-index: 2; */
     text-align: center;
+    background-repeat: no-repeat;
 
+ }
+ #take-off {
+    color:#a51a1a;
+    
  }
  #main-message {
     color: blue;
@@ -116,5 +131,7 @@ h1, h2 {
  #sub-headline {
     color: rgb(16, 15, 17);
     padding-top: 10px;
+    padding-left:50px;
     text-transform:initial;
+    font-weight:400;
  }
