@@ -89,7 +89,7 @@ h1, h2 {
     padding-top: 250px;
     padding-left: 300px;
     /* background-color:rgba(244, 247, 244, 0.5); */
-    bottom: 320px;
+    bottom: 300px;
     right: 50px;
     position: absolute;
     z-index: 2;
@@ -97,8 +97,10 @@ h1, h2 {
 
  }
  #main-message {
-    color: rgb(255, 0, 72);
+    color: blue;
  }
  #sub-headline {
-    color: rgb(19, 6, 57);
+    color: rgb(16, 15, 17);
+    padding-top: 10px;
+    text-transform:initial;
  }
