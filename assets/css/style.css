@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
 
 * {
-    margin: 0;
+    margin: 0 10px;
     padding: 0;
     border: none;
 }
@@ -22,17 +22,34 @@ h1, h2 {
     
 }
 #logo {
-        margin-left: 30px;
-        outline: 4px solid rgb(104, 204, 181);
-        display: inline-block;
-        margin-top: 30px;
-
-    
-    /* width: auto;
+        /* margin-left: 0; */
+        /* float:left; */
+        /* margin: 4px solid rgb(104, 204, 181); */
+        /* display: inline-block; */
+        /* margin-top: 50px; */
+        /* width: auto;
     height: 400px; */
     
      /* float: left;
     font-size: 280% */
+}
+     #header-text{
+        font-family: Roboto, sans-serif;
+        font-size:3em;
+        font-weight:900px;
+        /* padding-bottom: 10px; */
+        
+    }
+    #header-text2{
+        font-family: Roboto, sans-serif;
+        font-size:4em;
+        font-weight:900px;
+    }
+    #logo, #header-text{
+        display: flex;
+        align-items: center;
+
+    }
     
 }
 .menu {
@@ -40,32 +57,44 @@ h1, h2 {
     letter-spacing: 4px;
     color:blue;
     font-weight: bold;
-    padding-right: 60px;
+    /* padding-right: 60px; */
+    float: right;
 }
 .menu, #logo {
-    line-height: 30px;
-}
+    line-height: 10px;
+    /* clear:both; */
+    }
 .menu li {
-    float: right;
+    display: flex;
+    justify-content: space-between;
+    /* float: right; */
     list-style-type: none;
-    margin-right: 30px;
+    /* margin-right: 20px; */
     text-transform: uppercase;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
+    
     
 }
 .menu {
+    /* display: inline-block; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+        /* margin: 0 20px; */
 }
 #header-ribbon{
-    background-color: lightblue;
+    background-color: cyan;
+    width: 100vw;
+    /* height:fit-content; */
+    /* width: auto; */
+  
     
   }
 .menu a {
     text-decoration: none;
-    color: inherit;
+    color: blue;
     transition: 1s;
-    
+    /* padding-bottom: 10px; */
+    margin-bottom: 10px;
 }
  .menu a:hover {
     /* text-decoration: underline red; */
@@ -83,6 +112,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    margin: 0 20px;
            
  }
 
@@ -92,8 +122,9 @@ h1, h2 {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-   
+      
  }
+
  
  @keyframes hero-zoom {
     from {
@@ -110,10 +141,11 @@ h1, h2 {
     letter-spacing: 4px;
     /* height: 100px; */
     /* width: 1000px; */
-    padding-top: 250px;
-    padding-left: 300px;
+    text-align: center;
+    /* padding-top: 250px;
+    padding-left: 200px; */
     /* background-color:rgba(244, 247, 244, 0.5); */
-    bottom: 300px;
+    bottom: 275px;
     right: 50px;
     position: absolute;
     /* z-index: 2; */
@@ -135,3 +167,20 @@ h1, h2 {
     text-transform:initial;
     font-weight:400;
  }
+ /* Short description of services with grid */
+.grid-containers {
+    display: grid;
+    grid-template-rows:fr fr fr;
+    grid-auto-columns: minmax(300px, auto);
+    grid-gap: 5px;
+    
+}
+.grid-containers {
+    background-color: rgb(244, 250, 244);
+
+}
+.col-one {
+    border: 2px solid rgb(83, 82, 82);
+    margin: 0 20px;
+  
+}
