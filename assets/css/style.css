@@ -127,8 +127,18 @@ body{
     box-sizing: border-box;
     margin: 30px;
     height: 300px;
-    
  }
+ 
+ .column-header {
+    color:blue;
+    text-transform: uppercase;
+    
+
+ }
+   
+    
+
+ 
  /* Social media icons */
 
 
