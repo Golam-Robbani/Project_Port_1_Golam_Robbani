@@ -59,6 +59,7 @@ body{
     color:red;
     font-weight:bold;
     text-align: center;
+    transition: 1s;
 
 
 }
@@ -102,20 +103,44 @@ body{
  #take-off {
     color:red;
  }
-
+#columns, #intro-text{
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 20px;
+}
  #columns {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
     height: auto;
+    text-align: justify;
+    padding: 0 10px;
+    
 
+ }
+ #our-service{
+    padding-left:10px;
  }
  .services {
     width:20%;
     box-sizing: border-box;
-    margin: 10px;
+    margin: 30px;
     height: 300px;
+    
+ }
+ /* Social media icons */
+
+
+
+ #social-icons {
+    display: inline-block;
+}
+.button {
+    width: 60px;
+    height: 60px;
+
+
  }
 /* #columns {
     columns: 4 250px;
