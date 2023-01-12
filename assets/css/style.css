@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
 
 * {
-    margin: 0 10px;
+    margin: 0;
     padding: 0;
     border: none;
 }
@@ -13,13 +13,51 @@ body{
 
 }
 
-/* heading and logo styling */
-h1, h2 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #4d4a4a;
+#header-ribbon{
+    display: flex;
+    align-items: left;
+    background-color: cyan;
     
+}
+
+#logo {
+    border: 3px rgb(44, 42, 42) solid;
+}
+#header-text {
+    font-size: 2.5em;
+    padding-left: 30px;
+}
+/* navigation-menu styling */
+
+#navigation-menu ul {
+    list-style-type: note;
+    background: cyan;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#navigation-menu li {
+    display: inline-block;
+    
+        
+}
+#navigation-menu a {
+    text-decoration: none;
+    width: 80px;
+    display: block;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 25px;
+    color:red;
+    font-weight:bold;
+    text-align: center;
+    
+    
+}
+#navigation-menu a:hover{
+    text-decoration: underline solid red;
+    color: blue;
 }
 #logo {
         /* margin-left: 0; */
@@ -33,26 +71,27 @@ h1, h2 {
      /* float: left;
     font-size: 280% */
 }
-     #header-text{
+
+     /* #header-text{ */
         font-family: Roboto, sans-serif;
         font-size:3em;
         font-weight:900px;
         /* padding-bottom: 10px; */
         
     }
-    #header-text2{
+    /* #header-text2{ */
         font-family: Roboto, sans-serif;
         font-size:4em;
         font-weight:900px;
     }
-    #logo, #header-text{
+    /* #logo, #header-text{ */
         display: flex;
         align-items: center;
 
     }
     
 }
-.menu {
+/* .menu { */
     font-size: 110%;
     letter-spacing: 4px;
     color:blue;
@@ -60,11 +99,11 @@ h1, h2 {
     /* padding-right: 60px; */
     float: right;
 }
-.menu, #logo {
+/* .menu, #logo { */
     line-height: 10px;
     /* clear:both; */
     }
-.menu li {
+/* .menu li { */
     display: flex;
     justify-content: space-between;
     /* float: right; */
@@ -75,13 +114,13 @@ h1, h2 {
     
     
 }
-.menu {
+/* .menu { */
     /* display: inline-block; */
     display: flex;
     justify-content: center;
         /* margin: 0 20px; */
 }
-#header-ribbon{
+/* #header-ribbon{ */
     background-color: cyan;
     width: 100vw;
     /* height:fit-content; */
@@ -89,14 +128,14 @@ h1, h2 {
   
     
   }
-.menu a {
+/* .menu a { */
     text-decoration: none;
     color: blue;
     transition: 1s;
     /* padding-bottom: 10px; */
     margin-bottom: 10px;
 }
- .menu a:hover {
+ /* .menu a:hover { */
     /* text-decoration: underline red; */
     border: 2px solid rgb(194, 15, 57);
     border-radius: 4px;
@@ -104,11 +143,11 @@ h1, h2 {
 
 
  }
- .active {
+ /* .active { */
     /* border-bottom: 1px solid #a51a1a; */
  }
 
- #hero-outer {
+ /* #hero-outer { */
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -116,7 +155,7 @@ h1, h2 {
            
  }
 
- #hero-image {
+ /* #hero-image { */
     height: 500px;
     width: 100%;
     animation-name: hero-zoom;
@@ -134,7 +173,7 @@ h1, h2 {
         transform: scale(1.1);
     }
  }
- .cover-text{
+ /* .cover-text{ */
     font-family: Roboto, sans-serif;
     font-size: 150%;
     text-transform: uppercase;
@@ -153,14 +192,14 @@ h1, h2 {
     background-repeat: no-repeat;
 
  }
- #take-off {
+ /* #take-off { */
     color:#a51a1a;
     
  }
- #main-message {
+ /* #main-message { */
     color: blue;
  }
- #sub-headline {
+ /* #sub-headline { */
     color: rgb(16, 15, 17);
     padding-top: 10px;
     padding-left:50px;
@@ -168,18 +207,18 @@ h1, h2 {
     font-weight:400;
  }
  /* Short description of services with grid */
-.grid-containers {
+/* .grid-containers { */
     display: grid;
     grid-template-rows:fr fr fr;
     grid-auto-columns: minmax(300px, auto);
     grid-gap: 5px;
     
 }
-.grid-containers {
+/* .grid-containers { */
     background-color: rgb(244, 250, 244);
 
 }
-.col-one {
+/* .col-one { */
     border: 2px solid rgb(83, 82, 82);
     margin: 0 20px;
   
