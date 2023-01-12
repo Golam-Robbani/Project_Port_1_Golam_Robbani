@@ -51,7 +51,7 @@ body{
 }
 #navigation-menu a {
     text-decoration: none;
-    width: 150px;
+    width: 120px;
     display: block;
     text-transform: uppercase;
     padding: 25px 20px;
@@ -102,6 +102,30 @@ body{
  #take-off {
     color:red;
  }
+
+ #columns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+ }
+ .services {
+    width:20%;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 300px;
+ }
+/* #columns {
+    columns: 4 250px;
+    column-gap: 3em;
+    column-rule:2px solid lightgray;
+    position:relative;
+}
+#introduction {
+    column-span:all; */
+}
 /* 
      /* #header-text{ */
         font-family: Roboto, sans-serif;
