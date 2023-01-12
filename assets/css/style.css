@@ -134,15 +134,26 @@ body{
 
 
  #social-icons {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 40px; */
+    /* align-items: center; */
+    width: auto;
+    height: 40px;
 }
-.button {
-    width: 60px;
-    height: 60px;
-
-
+.button a {
+    background-color: green;
+  color: black;
+  border: 2px solid blue;
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
  }
-/* #columns {
+
+ /* #columns {
     columns: 4 250px;
     column-gap: 3em;
     column-rule:2px solid lightgray;
