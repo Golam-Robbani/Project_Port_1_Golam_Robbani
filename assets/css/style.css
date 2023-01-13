@@ -141,22 +141,4 @@ body{
 
    /* Social media icons */
 
-   footer {
-    height:160px;
-       
-   } 
-
-#social-icons {
-    text-align: center;
-}
-#social-icons > li {
-    display: inline;
-}
-
-#social-icons > ul> li> i {
-    font-size: 170%;
-    border: 2px solid black;
-    padding: 4px;
-    border-radius: 5px;
-    color: red;
-}
+/* Style all font awesome icons */
