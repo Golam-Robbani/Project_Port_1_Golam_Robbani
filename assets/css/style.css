@@ -13,7 +13,6 @@ body {
 }
 
 #header-ribbon {
-    /* display: inline-block; */
     justify-content: space-between;
     background: cyan;
     align-items: center;
@@ -22,30 +21,29 @@ body {
 }
 
 
-#h#eader-text > #logo {
-    /* clear: both; */
+#h#eader-text>#logo {
+
     border: 5px #0a0a0a solid;
     margin: 10px 0 0 10px;
-    
+
 }
 
 #text {
-    /* display: flex; */
+
     font-size: 500%;
     font-weight: bold;
-    /* margin: 0 10px; */
-    /* background-color: cyan cover; */
+
     padding-left: 50px;
-    
+
 
 }
 
 /* navigation-menu styling */
 
 #navigation-menu ul {
-    /* list-style-type: none; */
+
     background: cyan;
-    /* padding: 10px; */
+
     margin: 0 10px;
     text-align: center;
     padding-left: 40px;
@@ -62,8 +60,8 @@ body {
     width: 120px;
     display: block;
     text-transform: uppercase;
-    /* padding: 25px 20px; */
-    font-size: 30px;
+
+    font-size: 20px;
     color: red;
     font-weight: bold;
     text-align: center;
@@ -83,15 +81,11 @@ body {
 
     width: 100%;
     border: 1px solid red;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: 50% 50%;
     overflow: hidden;
     padding-top: 0;
     margin: 0 10px;
-
-    /* object-fit: cover;
-    margin:0 10px; */
-    /* padding-left: 50px; */
 
 
 }
@@ -102,13 +96,10 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
     bottom: 400px;
-    /* right: 50px; */
+
     position: absolute;
-    /* z-index: 2; */
     text-align: center;
-    /* background-repeat: no-repeat; */
     padding-left: 200px;
-    /* padding-top: 50px; */
 
 }
 
@@ -165,9 +156,8 @@ hr {
     margin: 10px;
 }
 
-/* Social media icons */
 
-/* Style all font awesome icons */
+/* Style social media awesome icons */
 
 footer {
     height: 16px;
@@ -196,42 +186,5 @@ footer>h1 {
 /* styling for different tablets and mobiles */
 
 @media screen and (max-width: 950px) {
-    #header-text {
-        font-size: 1em;
-        padding-right: 20px;
-    }
-
-    /* navigation-menu styling */
-
-    #navigation-menu ul {
-        margin: 0 5px;
-        padding-left: 20px;
-
-    }
-}
-
-#logo {
-    clear: both;
-    border: 2px #0a0a0a solid;
-    margin: auto;
 
     @media screen and (max-width: 750px) {}
-
-    .hero-image {
-        width: 100%;
-        display: inline-block;
-        vertical-align: middle;
-        font: 0/0 serif;
-        text-shadow: none;
-        color: transparent;
-        background-size: 100%;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-    }
-
-    .hero #cafe .inner {
-        padding-top: 63.35%;
-        /* height/width of image */
-        display: block;
-        height: 0;
-    }
